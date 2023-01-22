@@ -115,7 +115,7 @@ main section .title{
     font-size: 22px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
     .container{
         width: 90%; 
     }   
@@ -130,7 +130,16 @@ main section .title{
 @media screen and (max-width: 1000px) {
     .container{
         width: 98%; 
-    }   
+    }
+
+    header{
+        background: white;
+    }
+
+    main{
+        background-color: white;
+    }
+
     main nav{
         overflow: auto;
     }
